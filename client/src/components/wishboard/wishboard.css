@@ -1,0 +1,52 @@
+.wishboard {
+	flex: auto;
+	height: 150px;
+	min-width: 50px;
+	margin: 0 8px 8px 0;
+	background-color: #62799b;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+	font-family: "Noto Sans TC", sans-serif;
+}
+
+.wishboard:nth-child(4n + 1) {
+	width: 250px;
+}
+.wishboard:nth-child(4n + 1):nth-child(4n + 2) {
+	width: 325px;
+}
+.wishboard:nth-child(4n + 1):nth-child(4n + 3) {
+	width: 180px;
+}
+.wishboard:nth-child(4n + 1):nth-child(4n + 4) {
+	width: 380px;
+}
+
+@media (max-width: 800px) {
+	.wishboard {
+		height: 150px;
+	}
+}
+
+.nameWishboard {
+	font-size: large;
+	font-weight: 800;
+}
+
+@media (max-width: 800px) {
+	.nameWishboard {
+		font-size: small;
+	}
+}
+
+.descWishboard {
+	font-weight: 300;
+	padding-top: 10px;
+}
+
+@media (max-width: 800px) {
+	.descWishboard {
+		font-size: x-small;
+	}
+}

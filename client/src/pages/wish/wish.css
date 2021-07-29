@@ -1,0 +1,13 @@
+.wish {
+	margin: 10px 10px 0 17.5px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+@media (max-width: 800px) {
+	.wish {
+		/* margin: 0px 0px 0px 10px; */
+		align-items: center;
+	}
+}
